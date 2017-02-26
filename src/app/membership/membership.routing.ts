@@ -1,0 +1,1 @@
+import { MembershipDetailComponent } from './detail/membership-detail.component';import { Routes, RouterModule } from '@angular/router';const membershipRoutes: Routes = [  {    path: 'detail/:id',    component: MembershipDetailComponent  }];// - Updated Exportexport const MebershipRouting = RouterModule.forChild(membershipRoutes);

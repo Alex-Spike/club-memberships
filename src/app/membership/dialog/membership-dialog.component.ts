@@ -1,0 +1,1 @@
+import {Component} from '@angular/core';import { MdDialogRef} from '@angular/material';@Component({  moduleId: module.id,  selector: 'membership-dialog',  templateUrl: 'membership-dialog.component.html',})export class MembershipDialogComponent {  constructor(public dialogRef: MdDialogRef<MembershipDialogComponent>) {}}

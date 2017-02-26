@@ -1,0 +1,1 @@
+export class Membership {  constructor(    public name: string,    public description: string,    public imgUrl: string  ) { }}

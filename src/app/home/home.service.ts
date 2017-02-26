@@ -1,0 +1,1 @@
+import { Injectable } from '@angular/core';import { Membership } from '../shared/models/membership';import { AngularFire, FirebaseListObservable } from 'angularfire2';@Injectable()export class HomeService {  constructor(public af: AngularFire) {  }  public getItems(): FirebaseListObservable<Membership[]> {    return this.af.database.list('/memberships');  }}

@@ -1,0 +1,1 @@
+export const FirebaseConfig = {  apiKey: "AIzaSyAta3CQDg7i-CegsNRMLzfyvaiVgeAmgco",  authDomain: "club-memberships-ed743.firebaseapp.com",  databaseURL: "https://club-memberships-ed743.firebaseio.com",  storageBucket: "club-memberships-ed743.appspot.com",  messagingSenderId: "35582301114"};

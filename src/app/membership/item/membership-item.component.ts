@@ -1,0 +1,1 @@
+import { Component, Input } from '@angular/core';import { Membership } from '../../shared/models/membership';@Component({  moduleId: module.id,  selector: 'membership-item',  templateUrl: './membership-item.component.html'})export class MembershipItemComponent {  @Input() item: Membership;  constructor() {}}
